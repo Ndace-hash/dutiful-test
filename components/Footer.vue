@@ -1,5 +1,5 @@
 <template>
-    <footer class="bg-primary absolute bottom-0 left-0 right-0 px-4 md:px-12 py-4 md:py-8 z-0">
+    <footer class="bg-primary px-4 md:px-12 py-4 md:py-8 z-0">
         <section class="py-6 flex flex-col md:flex-row md:justify-between">
             <div class="mb-4 flex flex-col gap-2">
                 <h3 class="text-white text-lg font-semibold capitalize">company</h3>
