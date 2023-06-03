@@ -1,5 +1,5 @@
 <template>
-  <header class="flex items-center justify-between px-[30px] py-4 md:hidden">
+  <header class="flex items-center justify-between px-[30px] py-4 md:hidden z-30">
     <div class="flex items-center justify-center w-20">
       <img src="/logo.svg" alt="LOGO" class="w-full">
     </div>

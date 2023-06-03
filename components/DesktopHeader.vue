@@ -1,9 +1,9 @@
 <template>
-  <header class="justify-between items-center py-2 px-12 hidden md:flex">
+  <header class="justify-between items-center py-2 px-12 hidden md:flex z-30">
     <div class="w-20 ">
       <img src="/logo.svg" alt="LOGO" class="w-full">
     </div>
-    <div class="flex gap-4">
+    <div class="flex gap-4 md:gap-10">
       <div class="flex items-center gap-4">
         <IconSearch width="20px" height="20px"/>
         <ul class="flex gap-3 items-center">
