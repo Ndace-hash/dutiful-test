@@ -2,7 +2,7 @@
     <section class="flex flex-col lg:flex-row bg-[rgba(245,238,255,.7)]">
         <div class="relative overflow-hidden">
             <div class="absolute inset-x-0 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full rounded-lg h-3/4 bg-primary z-[0]"></div>
-            <img src="~/assets/images/phone.svg" alt="image of a phone" class="scale-105 lg:scale-125 translate-x-1/4 ">
+            <img src="~/assets/images/phone.svg" alt="image of a phone" class="scale-105 lg:scale-125 translate-x-1/4 lg:translate-y-12">
         </div>
         <div>
             <ServiceCard v-for="(card, index) in cards" :content="card" :key="inject" class="card z-30 bg-[#ffffff]"/>
