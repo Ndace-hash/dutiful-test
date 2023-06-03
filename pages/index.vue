@@ -3,6 +3,7 @@
 <Hero/>
 <Reviews/>
 <Services/>
+<Booking/>
     </div>
 </template>
 
