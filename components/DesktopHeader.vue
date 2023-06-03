@@ -13,7 +13,7 @@
           <li class="capitalize text-black text-sm"><NuxtLink to="/">blog</NuxtLink></li>
         </ul>
       </div>
-      <div class="flex gap-4">
+      <div class="flex gap-4 items-center">
         <NuxtLink to="/auth/login" class="capitalize font-semibold">login</NuxtLink>
         <NuxtLink to="/auth/register" class="capitalize font-semibold border-primary border-2 px-12 py-3 text-primary text-base rounded-lg">sign up</NuxtLink>
       </div>
