@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="pb-6 px-6 md:px-8">
 <Hero/>
     </div>
 </template>
