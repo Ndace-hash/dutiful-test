@@ -14,8 +14,8 @@
         </ul>
       </div>
       <div class="flex gap-4">
-        <button class="capitalize font-semibold">login</button>
-        <button class="capitalize font-semibold border-primary border-2 px-12 py-3 text-primary text-base rounded-lg">sign up</button>
+        <NuxtLink to="/auth/login" class="capitalize font-semibold">login</NuxtLink>
+        <NuxtLink to="/auth/register" class="capitalize font-semibold border-primary border-2 px-12 py-3 text-primary text-base rounded-lg">sign up</NuxtLink>
       </div>
     </div>
   </header>
