@@ -77,6 +77,10 @@
         try{
             const {data } = await axios.post('https://testapi.dutiful.ng/v2/auth/register',formData)
             success.value = true
+            formData.name = ''
+            formData.password = ''
+            formData.email = ''
+            formData.phone = ''
             loading.value = false
         }catch(e: any) {
             error.value = e.response.data.details
