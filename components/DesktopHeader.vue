@@ -1,11 +1,11 @@
 <template>
-  <header class="justify-between items-center py-2 px-12 hidden md:flex z-30">
+  <header class="justify-between items-center py-2 px-12 hidden md:flex z-50">
     <NuxtLink to="/" class="w-20 ">
       <img src="/logo.svg" alt="LOGO" class="w-full">
     </NuxtLink>
     <div class="flex gap-4 md:gap-10">
       <div class="flex items-center gap-4">
-        <IconSearch width="20px" height="20px"/>
+        <IconSearch :width="20" :height="20"/>
         <ul class="flex gap-3 items-center">
           <li class="capitalize text-black text-sm"><NuxtLink to="/">business directory</NuxtLink></li>
           <li class="capitalize text-black text-sm"><NuxtLink to="/">features</NuxtLink></li>

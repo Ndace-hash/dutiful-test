@@ -6,7 +6,7 @@
         </div>
         <div class="relative flex justify-center items-end w-full">
             <div class="bg-primary absolute h-3/4 bottom-0 left-0 right-0 -z-10 rounded-xl"></div>
-            <img src="~/assets/images/heroFocal.svg" alt="focal point: preview of app" class="z-10 h-full md:w-[400px] translate-y-4">
+            <img src="~/assets/images/heroFocal.svg" alt="focal point: preview of app" class="z-30 h-full md:w-[400px] translate-y-4">
         </div>
     </section>
 </template>
