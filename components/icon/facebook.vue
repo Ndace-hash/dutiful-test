@@ -1,22 +1,24 @@
 <template>
     <div>
         <svg :width="width" :height="height" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M21.1199 11.32H22.9999V8.14003C22.0896 8.04538 21.175 7.99865 20.2599 8.00003C17.5399 8.00003 15.6799 9.66003 15.6799 12.7V15.32H12.6099V18.88H15.6799V28H19.3599V18.88H22.4199L22.8799 15.32H19.3599V13.05C19.3599 12 19.6399 11.32 21.1199 11.32Z" fill="#F5EEFF"/>
-</svg>
+            <path
+                d="M21.1199 11.32H22.9999V8.14003C22.0896 8.04538 21.175 7.99865 20.2599 8.00003C17.5399 8.00003 15.6799 9.66003 15.6799 12.7V15.32H12.6099V18.88H15.6799V28H19.3599V18.88H22.4199L22.8799 15.32H19.3599V13.05C19.3599 12 19.6399 11.32 21.1199 11.32Z"
+                fill="#F5EEFF" />
+        </svg>
 
     </div>
 </template>
 
 <script setup>
-    defineProps({
-        width: {
-        type: String,
+defineProps({
+    width: {
+        type: Number,
         default: 36
     },
     height: {
-        type: String,
+        type: Number,
         default: 36
     }
-    })
+})
 </script>
 
