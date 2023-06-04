@@ -1,19 +1,19 @@
 <template>
-    <div class="flex py-12 items-center justify-center w-full">
+    <div class="flex py-12 items-center justify-center w- px-4">
         <form class=" min-h-[200px] w-full max-w-[400px] mb-4" ref="form" @submit.prevent="signUp">
             <span>Sign up for free</span>
             <h2 class="font-bold capitalize text-4xl mb-4 mt-2 text-dark-blue">Get started</h2>
             <div class="flex gap-4 w-full">
                 <div :class="['form-group flex items-center justify-center  mb-6  rounded-lg py-4 px-3 relative cursor-pointer', role === 'user' ? 'border border-primary text-primary' : 'text-[#B1BDCA]']" @click="role = 'user'">
                     <input type="radio" name="role" id="user" class="hidden" value="user" v-model="role">
-                    <label for="user" class="text-xl font-semibold flex items-center justify-center gap-2">
+                    <label for="user" class="text-base md:text-xl font-semibold flex items-center justify-center gap-2">
                         <IconPerson :width="20" :height="20"/>
                         Regular user</label>
                         <IconCheck :width="24" :height="24" class="absolute -right-3 -top-3" v-if="role === 'user'"/>
                 </div>
                 <div :class="['form-group flex items-center justify-center  mb-6 rounded-lg py-4 px-3 relative cursor-pointer', role === 'service' ? 'border border-primary text-primary' : 'text-[#B1BDCA]']" @click="role = 'service'">
                     <input type="radio" name="role" id="service" class="hidden" value="service" v-model="role">
-                    <label for="service" class="text-xl font-semibold flex items-center justify-center gap-2">
+                    <label for="service" class="text-base md:text-xl font-semibold flex items-center justify-center gap-2">
                         <IconShop :width="20" :height="20"/>
                         Service provider</label>
                         <IconCheck :width="24" :height="24" class="absolute -right-3 -top-3" v-if="role === 'service'"/>

@@ -1,5 +1,5 @@
 <template>
-    <div class="flex py-12 items-center justify-center w-full">
+    <div class="flex py-12 items-center justify-center w-full px-4">
         <form class=" min-h-[200px] w-full max-w-[400px] mb-4" @submit.prevent="login">
             <span>Jump right back in</span>
             <h2 class="font-bold capitalize text-4xl mb-4 mt-2 text-dark-blue">Login</h2>
