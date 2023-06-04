@@ -58,18 +58,18 @@
             <div class="flex items-center gap-4 py-3  w-full md:justify-end">
                 <h3 class="capitalize">download</h3>
                 <div class="flex gap-2 items-center">
-                    <IconApple width="30" height="30"/>
-                    <IconPlay width="30" height="30"/>
+                    <IconApple :width="30" :height="30"/>
+                    <IconPlay :width="30" :height="30"/>
                 </div>
             </div>
             <div class="flex items-center gap-4 py-3  w-full">
                 <h3 class="capitalize">follow us</h3>
                 <div class="flex gap-2 items-center">
-                    <IconFacebook width="30" height="30"/>
-                    <IconInstagram width="30" height="30"/>
-                    <IconTwitter width="30" height="30"/>
-                    <IconYoutube width="30" height="30"/>
-                    <IconLinkedin width="30" height="30"/>
+                    <IconFacebook :width="30" :height="30"/>
+                    <IconInstagram :width="30" :height="30"/>
+                    <IconTwitter :width="30" :height="30"/>
+                    <IconYoutube :width="30" :height="30"/>
+                    <IconLinkedin :width="30" :height="30"/>
                 </div>
             </div>
         </section>
