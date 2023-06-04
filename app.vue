@@ -9,3 +9,7 @@
   </main>
 </template>
 
+<script setup lang="ts">
+  useHead({title: 'Dutiful website'})
+</script>
+
