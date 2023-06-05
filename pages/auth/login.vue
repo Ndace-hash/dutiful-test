@@ -49,3 +49,9 @@ const login = async ()=> {
 }
 
 </script>
+
+<style scoped>
+    h2{
+        font-family: "Recoleta";
+    }
+</style>
