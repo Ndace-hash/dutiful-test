@@ -14,3 +14,8 @@
     </section>
 </template>
 
+<style scoped>
+    h1{
+        font-family: "Recoleta";
+    }
+</style>
